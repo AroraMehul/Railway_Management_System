@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".CheckTrain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/relLay"
+
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:background="@drawable/btn_bg">
+        <EditText
+            android:layout_width="210dp"
+            android:background="@drawable/et_bg"
+            android:id="@+id/trainId"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:hint="Input Train ID"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_margin = "10dp"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Check"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:id="@+id/checkTrain"
+            android:background="@drawable/btn_bg"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/relLay8"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/relLay"
+        android:background="@drawable/btn_bg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/trName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/arrTime"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_bg"
+            android:layout_below="@id/trName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/arrTime"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/depTime"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_below="@id/depTime"
+            android:id="@+id/noOfSeats"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/date"
+            android:layout_below="@id/noOfSeats"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            android:layout_height="40dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

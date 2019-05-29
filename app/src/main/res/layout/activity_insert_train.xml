@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".InsertTrain">
+
+    <LinearLayout
+        android:layout_below="@id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/linLay1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/nameLin"
+            android:visibility="visible"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train Number"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                android:id="@+id/tno"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_bg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/genLin"
+            android:visibility="visible"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train Name"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:id="@+id/tname"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_bg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/adhLin"
+            android:visibility="visible"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seat_Sleeper"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:id="@+id/ss"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_bg"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/mobLin"
+            android:visibility="visible"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seat_First_Class_AC"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:id="@+id/a1"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_bg"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ageLin"
+            android:visibility="visible"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seat_Second_Class_AC"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:id="@+id/a2"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_bg"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tLin"
+            android:visibility="visible"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seat_Third_Class_AC"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-light"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:id="@+id/a3"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_bg"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Add"
+            android:id="@+id/add"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"/>
+
+    </LinearLayout>
+</RelativeLayout>

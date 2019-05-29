@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".Admin">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_bg"
+        android:layout_centerInParent="true">
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updateTrain"
+            android:background="@drawable/btn_bg"
+            android:text="Update Train"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updateTrain"
+            android:id="@+id/deleteTrain"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="Delete Train"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/deleteTrain"
+            android:id="@+id/updateStation"
+            android:background="@drawable/btn_bg"
+            android:text="Update Station"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/updateStation"
+            android:id="@+id/deleteStation"
+            android:background="@drawable/btn_bg"
+            android:text="Delete Stations"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/deleteStation"
+            android:id="@+id/insertStation"
+            android:background="@drawable/btn_bg"
+            android:text="Insert Stations"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/insertStation"
+            android:id="@+id/insertTrain"
+            android:background="@drawable/btn_bg"
+            android:text="Insert Train"
+            android:textColor="@color/white"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
